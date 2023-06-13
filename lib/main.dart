@@ -1,8 +1,8 @@
 import "package:flutter/material.dart";
-import "dice/dice.dart";
+import "package:udemy_flutter/quiz/quiz.dart";
 
 void main() {
   runApp(
-    const Dice(),
+    const Quiz(),
   );
 }
