@@ -1,8 +1,11 @@
 import "package:flutter/material.dart";
-import "package:udemy_flutter/todo/todo.dart";
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:udemy_flutter/meal/meal.dart';
 
 void main() {
   runApp(
-    const ToDo(),
+    const ProviderScope(
+      child: Meal(),
+    ),
   );
 }

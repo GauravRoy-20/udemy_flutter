@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:udemy_flutter/todo/widgets/keys/keys.dart';
-import 'package:udemy_flutter/todo/widgets/ui_updates_demo.dart';
 
 class ToDoScreen extends StatelessWidget {
   const ToDoScreen({super.key});
