@@ -1,11 +1,6 @@
 import "package:flutter/material.dart";
-import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:udemy_flutter/meal/meal.dart';
+import "package:udemy_flutter/shopping_list/shopping_list.dart";
 
 void main() {
-  runApp(
-    const ProviderScope(
-      child: Meal(),
-    ),
-  );
+  runApp(const ShoppingList());
 }
