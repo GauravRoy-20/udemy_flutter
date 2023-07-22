@@ -1,6 +1,11 @@
 import "package:flutter/material.dart";
-import "package:udemy_flutter/shopping_list/shopping_list.dart";
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:udemy_flutter/place/place_app.dart';
 
 void main() {
-  runApp(const ShoppingList());
+  runApp(
+    const ProviderScope(
+      child: PlaceApp(),
+    ),
+  );
 }
