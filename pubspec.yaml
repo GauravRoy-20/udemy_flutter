@@ -46,6 +46,9 @@ dependencies:
   path_provider: ^2.0.15
   sqflite: ^2.2.8+4
   path: any
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.1
+  firebase_storage: ^11.2.5
 
 dev_dependencies:
   flutter_test:
