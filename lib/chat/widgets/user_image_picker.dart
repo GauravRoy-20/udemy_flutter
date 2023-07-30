@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -43,7 +42,7 @@ class _UserImagePickerState extends State<UserImagePicker> {
               pickedImageFile != null ? FileImage(pickedImageFile!) : null,
         ),
         TextButton.icon(
-          onPressed: () {},
+          onPressed: pickImage,
           icon: const Icon(
             Icons.camera,
           ),
